@@ -15,7 +15,7 @@ public class WebController {
 	@GetMapping("/hi")
 	public String greet() {
 		
-		return "Hi World... from jenkins";
+		return "Hi World";
 	}
 
 }
